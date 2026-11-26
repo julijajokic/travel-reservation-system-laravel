@@ -1,7 +1,7 @@
 
 ## Running the laravel application
 
-### 1. install dependencies
+### 1. Install dependencies
 
 Open a terminal in the laravel project directory and run:
 
@@ -9,7 +9,7 @@ Open a terminal in the laravel project directory and run:
 composer install
 ```
 
-### 2. configure environment variables
+### 2. Configure environment variables
 
 Create a `.env` file by copying the `.env.example` file:
 
@@ -17,13 +17,13 @@ Create a `.env` file by copying the `.env.example` file:
 cp .env.example .env
 ```
 
-### 3. generate application key
+### 3. Generate application key
 
 ```bash
 php artisan key:generate
 ```
 
-### 4. configure the database
+### 4. Configure the database
 
 Open the `.env` file and configure the database connection:
 
@@ -38,13 +38,13 @@ DB_PASSWORD=your_password
 
 Create the database in MySQL using phpMyAdmin or another database management tool.
 
-### 5. run database migrations
+### 5. Run database migrations
 
 ```bash
 php artisan migrate
 ```
 
-### 6. start the laravel development server
+### 6. Start the laravel development server
 
 ```bash
 php artisan serve
