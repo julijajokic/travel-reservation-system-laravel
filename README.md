@@ -50,6 +50,6 @@ php artisan migrate
 php artisan serve
 ```
 
-Open your browser and navigate to:
+open your browser and navigate to:
 
 `http://127.0.0.1:8000`
